@@ -1,4 +1,4 @@
-package it.unisalento.springsecurityjpa;
+package it.unisalento.springsecurityjpa.models;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
