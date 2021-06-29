@@ -12,9 +12,9 @@ public class WebAppConfig implements WebMvcConfigurer {
                 .addMapping("/**")
                 .allowedMethods("PUT", "DELETE", "PATCH", "GET", "POST")
                 .allowedHeaders("*")
-                .exposedHeaders("*")
                 .allowCredentials(true)
                 .allowedOrigins("http://localhost:4200")
+                .exposedHeaders("connection")
         ;
     }
 }
